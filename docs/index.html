@@ -1,0 +1,46 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>QuantSlate NFL Model - Public Track Record</title><style>
+:root{--bg:#fbfbf9;--fg:#1c1c1a;--muted:#6b6b66;--card:#ffffff;--line:#e4e3de;--a:#2a6f97;--b:#b5651d;--win:#1d7a46;--loss:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ecebe6;--muted:#9a998f;--card:#1c1c1a;--line:#33332f;--a:#6bb4dd;--b:#e0a064;--win:#52c284;--loss:#f0786f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}h1{font-size:1.6rem;margin:.2em 0}h2{font-size:1.15rem;margin:1.6em 0 .5em}
+section{margin:0 0 8px}.muted{color:var(--muted);font-size:.9rem}.banner{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--b);padding:12px 14px;border-radius:6px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}.grid>div{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 12px}
+.wide{grid-column:1/-1}.k{display:block;color:var(--muted);font-size:.8rem}.v{display:block;font-size:1.25rem;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{color:var(--muted);font-weight:600}
+.scroll{overflow-x:auto}.res.W{color:var(--win);font-weight:600}.res.L{color:var(--loss);font-weight:600}
+.chart{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:6px}.gridline{stroke:var(--line)}.zero{stroke:var(--muted);stroke-dasharray:4 3}
+.axis{fill:var(--muted);font-size:11px}.line{fill:none;stroke-width:2.2}.line.s1{stroke:var(--a)}.line.s2{stroke:var(--b)}
+.legend{margin:6px 0;font-size:.85rem}.lg{margin-right:14px}.lg:before{content:'';display:inline-block;width:14px;height:3px;margin-right:6px;vertical-align:middle}
+.lg.s1:before{background:var(--a)}.lg.s2:before{background:var(--b)}a{color:var(--a)}
+</style></head><body><main>
+<h1>QuantSlate NFL Model - Public Track Record</h1>
+<p class='muted'>Updated 2026-10-15 01:14 UTC. Informational only. Not betting advice. No profit is claimed or implied.</p>
+<div class='banner'><strong>Read this first.</strong> In our walk-forward backtest over 3,258 NFL games, the model&#x27;s home-win probabilities scored a log loss of 0.6449 versus 0.6100 for the betting market (lower is better), and betting its disagreements with the market lost money at every edge threshold we tested. The model has NOT shown a profitable edge. This page exists so you can watch that for yourself.</div>
+
+<section><h2>Official picks (model disagrees with the market by 10+ points of win probability)</h2><p class='muted'>No graded games yet.</p><p class='muted'>Small samples swing wildly. Look at the range, not just the headline.</p></section>
+<section><h2>All graded games (the model&#x27;s side, every game)</h2><p class='muted'>No graded games yet.</p><p class='muted'>Includes every recorded game, not only the strong picks.</p></section>
+
+<section><h2>Model vs. market probabilities</h2><p class='muted'>Needs at least 5 graded games.</p>
+<p class='muted'>Log loss of the home-win probability across graded games.</p></section>
+
+<section><h2>Cumulative units</h2><div class='legend'><span class='lg s1'>Official picks</span><span class='lg s2'>All games</span></div><svg viewBox='0 0 720 240' role='img' aria-label='Cumulative units by graded game' class='chart'><line x1='46' x2='706' y1='214.0' y2='214.0' class='gridline'/><text x='40' y='218.0' text-anchor='end' class='axis'>-1.0</text><line x1='46' x2='706' y1='164.0' y2='164.0' class='gridline'/><text x='40' y='168.0' text-anchor='end' class='axis'>-0.5</text><line x1='46' x2='706' y1='114.0' y2='114.0' class='gridline'/><text x='40' y='118.0' text-anchor='end' class='axis'>+0.0</text><line x1='46' x2='706' y1='64.0' y2='64.0' class='gridline'/><text x='40' y='68.0' text-anchor='end' class='axis'>+0.5</text><line x1='46' x2='706' y1='14.0' y2='14.0' class='gridline'/><text x='40' y='18.0' text-anchor='end' class='axis'>+1.0</text><line x1='46' x2='706' y1='114.0' y2='114.0' class='zero'/><text x='46' y='234' class='axis'>games graded, oldest to newest</text></svg></section>
+
+<section><h2>By week</h2><p class='muted'>No graded games yet.</p></section>
+<section><h2>Pending picks (locked before kickoff, not yet graded)</h2><div class='scroll'><table><thead><tr><th>Game</th><th>Pick</th><th>Edge</th><th>Locked (UTC)</th><th>Kickoff (UTC)</th></tr></thead><tbody><tr><td>SEA @ DEN</td><td>DEN +2.5</td><td>+7.4%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-16T00:15:00Z</td></tr><tr><td>HOU @ JAX</td><td>JAX -2.5 *</td><td>+16.3%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T13:30:00Z</td></tr><tr><td>BAL @ CLE</td><td>CLE +5.0 *</td><td>+13.6%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T17:00:00Z</td></tr><tr><td>CAR @ PHI</td><td>CAR -1.0</td><td>-4.5%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T17:00:00Z</td></tr><tr><td>CHI @ ATL</td><td>ATL +1.0 *</td><td>+18.4%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T17:00:00Z</td></tr><tr><td>NO @ NYG</td><td>NYG +1.0 *</td><td>+11.4%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T17:00:00Z</td></tr><tr><td>NYJ @ NE</td><td>NYJ +7.0</td><td>-1.0%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T17:00:00Z</td></tr><tr><td>PIT @ TB</td><td>TB +2.5 *</td><td>+21.3%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T17:00:00Z</td></tr><tr><td>TEN @ IND</td><td>TEN +7.0</td><td>-6.0%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T17:00:00Z</td></tr><tr><td>ARI @ LA</td><td>ARI +12.5 *</td><td>-11.8%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T20:05:00Z</td></tr><tr><td>BUF @ LV</td><td>LV +4.5</td><td>+7.9%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T20:25:00Z</td></tr><tr><td>LAC @ KC</td><td>KC -8.0</td><td>+2.2%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-18T20:25:00Z</td></tr><tr><td>DAL @ GB</td><td>DAL +1.5</td><td>-3.1%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-19T00:20:00Z</td></tr><tr><td>WAS @ SF</td><td>WAS +7.5</td><td>-4.3%</td><td>2026-10-15T01:01:22Z</td><td>2026-10-20T00:15:00Z</td></tr></tbody></table></div></section>
+<section><h2>Graded picks</h2><p class='muted'>None.</p>
+<p class='muted'>* = official pick. <a href='ledger.csv'>Download the full ledger (CSV)</a>.</p></section>
+
+<section><h2>How this works</h2>
+<ul>
+<li>The model is a calibrated gradient-boosted classifier of home-team win probability, trained on NFL history. Picks are the side whose model probability is higher than the market's after converting the point spread to a probability.</li>
+<li>The ledger is append-only. For each game, the last snapshot taken <em>before kickoff</em> is the one that counts; later snapshots are ignored.</li>
+<li>Grading: flat 1 unit per pick at an assumed -110 price (win +0.91u, loss -1u, push 0). Real prices vary by sportsbook and by day.</li>
+<li>Lines come from the market data listed in each row's source (live book consensus or the nflverse schedule line). The line at the time of the pick is the line used for grading.</li>
+
+<li>Games with no posted line are not recorded.</li>
+</ul>
+<p>0 of 0 graded picks were timestamp-anchored: their hash was posted to a public Discord channel, which stamps each message with its own time. <a href='hashes.csv'>Hash records (CSV)</a>. To check the ledger yourself, clone the repository and run <code>python verify_ledger.py</code>.</p>
+<p>Every snapshot is committed to the public repository (<a href='https://github.com/Eflog/quantslate-public-ledger'>https://github.com/Eflog/quantslate-public-ledger</a>) at the time it is generated. Compare the 'Locked' time on any row with the commit history of <code>ledger/picks.csv</code> and with the game's kickoff time. Git commit dates can be set by whoever makes the commit, so the push times shown in the repository's activity feed are the stronger evidence.</p>
+
+</section>
+</main></body></html>
