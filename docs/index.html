@@ -14,7 +14,7 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{padding:6px 8px
 .lg.s1:before{background:var(--a)}.lg.s2:before{background:var(--b)}a{color:var(--a)}
 </style></head><body><main>
 <h1>QuantSlate NFL Model - Public Track Record</h1>
-<p class='muted'>Updated 2026-10-20 17:17 UTC. Informational only. Not betting advice. No profit is claimed or implied.</p>
+<p class='muted'>Updated 2026-10-22 02:02 UTC. Informational only. Not betting advice. No profit is claimed or implied.</p>
 <div class='banner'><strong>Read this first.</strong> In our walk-forward backtest over 3,258 NFL games, the model&#x27;s home-win probabilities scored a log loss of 0.6449 versus 0.6100 for the betting market (lower is better), and betting its disagreements with the market lost money at every edge threshold we tested. The model has NOT shown a profitable edge. This page exists so you can watch that for yourself.</div>
 
 <section><h2>Official picks (model disagrees with the market by 10+ points of win probability)</h2><div class='grid'><div><span class='k'>Record</span><span class='v'>2-3-0</span></div><div><span class='k'>Units (flat 1u at -110)</span><span class='v'>-1.18u</span></div><div><span class='k'>ROI</span><span class='v'>-23.6%</span></div><div><span class='k'>Win rate (break-even 52.4%)</span><span class='v'>40.0%</span></div><div class='wide'><span class='k'>95% range for ROI (bootstrap) (needs 10+ games)</span><span class='v'>-</span></div></div><p class='muted'>Small samples swing wildly. Look at the range, not just the headline.</p></section>
@@ -40,7 +40,7 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{padding:6px 8px
 <li>Games with no posted line are not recorded.</li>
 </ul>
 <p>14 of 14 graded picks were timestamp-anchored: their hash was posted to a public Discord channel, which stamps each message with its own time. <a href='hashes.csv'>Hash records (CSV)</a>. To check the ledger yourself, clone the repository and run <code>python verify_ledger.py</code>.</p>
-<p>Every snapshot is committed to the public repository (<a href='https://github.com/Eflog/quantslate-public-ledger'>https://github.com/Eflog/quantslate-public-ledger</a>) at the time it is generated. Compare the 'Locked' time on any row with the commit history of <code>ledger/picks.csv</code> and with the game's kickoff time. Git commit dates can be set by whoever makes the commit, so the push times shown in the repository's activity feed are the stronger evidence.</p>
+<p>Every snapshot is committed to the public repository (<a href='https://github.com/quantslate-hq/quantslate-public-ledger'>https://github.com/quantslate-hq/quantslate-public-ledger</a>) at the time it is generated. Compare the 'Locked' time on any row with the commit history of <code>ledger/picks.csv</code> and with the game's kickoff time. Git commit dates can be set by whoever makes the commit, so the push times shown in the repository's activity feed are the stronger evidence.</p>
 
 </section>
 </main></body></html>
